@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "I33PbGOoEpf+NTCmyBfzXxhGiBrfQaVVAx0gBWBOLucsmuy2RCO4XBQhxPEr/yhl31ev73x125EgwS1QbjPkzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mirko\\Source\\Repos\\BackendTest\\BackendTest\\BackendTest.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.159:5000/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

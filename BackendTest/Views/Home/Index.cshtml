@@ -1,0 +1,106 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    .container {
+        margin-top: 50px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .result {
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    .col-md-4 {
+        padding: 15px;
+    }
+
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Get Nth From End</h2>
+            <form asp-action="GetNthFromEnd" asp-controller="Home" method="post">
+                <div class="form-group">
+                    <label for="arr">Array (comma separated):</label>
+                    <input type="text" class="form-control" id="arr" name="arr" required pattern="^[0-9]+(,[0-9]+)*$">
+                    <div class="invalid-feedback">Array is required and should be comma separated integers.</div>
+                </div>
+                <div class="form-group">
+                    <label for="n">N:</label>
+                    <input type="number" class="form-control" id="n" name="n" required>
+                    <div class="invalid-feedback">N is required.</div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            @if (ViewData["ResultGetNthFromEnd"] != null)
+            {
+                <div class="result">
+                    <h3>Result:</h3>
+                    <p>@ViewData["ResultGetNthFromEnd"]</p>
+                </div>
+            }
+        </div>
+        <div class="col-md-4">
+            <h2>Reverse Words</h2>
+            <form asp-action="ReverseWords" asp-controller="Home" method="post">
+                <div class="form-group">
+                    <label for="regularPhrase">Regular Phrase:</label>
+                    <input type="text" class="form-control" id="regularPhrase" name="regularPhrase" required>
+                    <div class="invalid-feedback">Phrase is required.</div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            @if (ViewData["ResultReverseWords"] != null)
+            {
+                <div class="result">
+                    <h3>Result:</h3>
+                    <p>@ViewData["ResultReverseWords"]</p>
+                </div>
+            }
+        </div>
+        <div class="col-md-4">
+            <h2>Triangle Categorisation</h2>
+            <form asp-action="TriangleCategorisation" asp-controller="Home" method="post">
+                <div class="form-group">
+                    <label for="sideA">Side A:</label>
+                    <input type="number" class="form-control" id="sideA" name="sideA" required>
+                    <div class="invalid-feedback">Side A is required.</div>
+                </div>
+                <div class="form-group">
+                    <label for="sideB">Side B:</label>
+                    <input type="number" class="form-control" id="sideB" name="sideB" required>
+                    <div class="invalid-feedback">Side B is required.</div>
+                </div>
+                <div class="form-group">
+                    <label for="sideC">Side C:</label>
+                    <input type="number" class="form-control" id="sideC" name="sideC" required>
+                    <div class="invalid-feedback">Side C is required.</div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            @if (ViewData["ResultTriangleCategorisation"] != null)
+            {
+                <div class="result">
+                    <h3>Result:</h3>
+                    <p>@ViewData["ResultTriangleCategorisation"]</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

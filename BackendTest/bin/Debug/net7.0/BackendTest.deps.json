@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BackendTest/1.0.0": {
+        "dependencies": {
+          "BackendTest.Manager": "1.0.0"
+        },
+        "runtime": {
+          "BackendTest.dll": {}
+        }
+      },
+      "BackendTest.Common/1.0.0": {
+        "runtime": {
+          "BackendTest.Common.dll": {}
+        }
+      },
+      "BackendTest.Manager/1.0.0": {
+        "dependencies": {
+          "BackendTest.Common": "1.0.0"
+        },
+        "runtime": {
+          "BackendTest.Manager.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BackendTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BackendTest.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BackendTest.Manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
