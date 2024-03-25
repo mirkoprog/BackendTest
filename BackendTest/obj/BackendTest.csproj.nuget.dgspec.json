@@ -4,70 +4,6 @@
     "C:\\Users\\mirko\\Source\\Repos\\BackendTest\\BackendTest\\BackendTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mirko\\Source\\Repos\\BackendTest\\BackendTest.Common\\BackendTest.Common.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\mirko\\Source\\Repos\\BackendTest\\BackendTest.Common\\BackendTest.Common.csproj",
-        "projectName": "BackendTest.Common",
-        "projectPath": "C:\\Users\\mirko\\Source\\Repos\\BackendTest\\BackendTest.Common\\BackendTest.Common.csproj",
-        "packagesPath": "C:\\Users\\mirko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mirko\\Source\\Repos\\BackendTest\\BackendTest.Common\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\mirko\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.1.159:5000/v3/index.json": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\Users\\mirko\\Source\\Repos\\BackendTest\\BackendTest.Manager\\BackendTest.Manager.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -95,11 +31,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\mirko\\Source\\Repos\\BackendTest\\BackendTest.Common\\BackendTest.Common.csproj": {
-                "projectPath": "C:\\Users\\mirko\\Source\\Repos\\BackendTest\\BackendTest.Common\\BackendTest.Common.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

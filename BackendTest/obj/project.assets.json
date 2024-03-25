@@ -2,22 +2,9 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "BackendTest.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/BackendTest.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BackendTest.Common.dll": {}
-        }
-      },
       "BackendTest.Manager/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "BackendTest.Common": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/BackendTest.Manager.dll": {}
         },
@@ -28,11 +15,6 @@
     }
   },
   "libraries": {
-    "BackendTest.Common/1.0.0": {
-      "type": "project",
-      "path": "../BackendTest.Common/BackendTest.Common.csproj",
-      "msbuildProject": "../BackendTest.Common/BackendTest.Common.csproj"
-    },
     "BackendTest.Manager/1.0.0": {
       "type": "project",
       "path": "../BackendTest.Manager/BackendTest.Manager.csproj",

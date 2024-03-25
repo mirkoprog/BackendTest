@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "BackendTest.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/BackendTest.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BackendTest.Common.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "BackendTest.Common/1.0.0": {
-      "type": "project",
-      "path": "../BackendTest.Common/BackendTest.Common.csproj",
-      "msbuildProject": "../BackendTest.Common/BackendTest.Common.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "BackendTest.Common >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\mirko\\.nuget\\packages\\": {},
@@ -57,11 +38,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\mirko\\Source\\Repos\\BackendTest\\BackendTest.Common\\BackendTest.Common.csproj": {
-              "projectPath": "C:\\Users\\mirko\\Source\\Repos\\BackendTest\\BackendTest.Common\\BackendTest.Common.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
