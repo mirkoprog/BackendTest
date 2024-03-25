@@ -49,12 +49,8 @@
             if (index >= 0 && index < values.Length)
             {
                 result = values[index];
-                Console.WriteLine($"Il terzo elemento dalla fine è: {result}");
             }
-            else
-            {
-                Console.WriteLine("L'indice specificato non è valido.");
-            }
+
             return result;
         }
     }
